@@ -1,11 +1,10 @@
 import math
 
-print("Ti calcolerò il volume di una sfera!")
+print("Ti calcorerò la superficie e il volume di una sfera!")
+r = input("Inserisci il raggio! ")
+r = int(r)
 
-r = input("Numero: ")
+superficie = 4. * math.pi * r * r
+volume = 4. / 3. * math.pi * r * r * r
 
-r = int
-
-Volume = 4 / 3 * math.pi * (r * r * r)
-
-print("Il volume è", Volume)
+print("La sfera di raggio", r, "ha superficie", superficie, "e volume", volume)
