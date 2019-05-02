@@ -3,6 +3,6 @@ num = input("Numero: ")
 num = int(num)
 
 if num%2 == 0:
-print(num, "è pari!")
+    print("Questo numero è pari!")
 else:
-print(num, "è dispari!")
+    print("Questo numero è dispari!")
