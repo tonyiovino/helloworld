@@ -12,7 +12,7 @@ if scelta==1:
     volume = num * num * num
 
     print("Il volume di", num, "è", volume)
-else scelta==2:
+elif scelta==2:
     print("Ti calcorerò la superficie e il volume di una sfera!")
     r = input("Inserisci il raggio! ")
     r = int(r)
