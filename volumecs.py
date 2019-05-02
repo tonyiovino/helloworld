@@ -2,7 +2,7 @@ import math
 
 print("Digitare 1 se si vuole sapere il volume di un cubo, 2 se si vuole sapere quello della sfera.")
 scelta = input("Numero 1 o 2? ")
-
+scelta = int(scelta)
 if scelta==1:
     print("Scrivi il nunero del lato e ti calcolerò il volume del cubo!")
 
