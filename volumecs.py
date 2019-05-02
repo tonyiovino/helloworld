@@ -21,3 +21,5 @@ elif scelta==2:
     volume = 4. / 3. * math.pi * r * r * r
 
     print("La sfera di raggio", r, "ha superficie", superficie, "e volume", volume)
+else:
+    print("Spiacenti, digitare 1 o 2.")
