@@ -23,5 +23,5 @@ elif A==0:
 
 else:
 	X = -B -math.sqrt(B * B * 4 * A * C) / 2 * A
-	X = -B +math.sqrt(B * B * 4 * A * C) / 2 * A
-print("L'equazione ha soluzione:", X)
+	X = -B +math.sqrt(B * B * 4 * A * C) / 2 * A 
+	print("L'equazione ha soluzione:", X)
