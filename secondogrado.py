@@ -26,4 +26,5 @@ else:
 
 	X2 = -B +math.sqrt(B * B * 4 * A * C) / 2 * A 
 
-	print("L'equazione ha soluzione:", X1 or X2)
+	print("L'equazione ha soluzione:", X1)
+	print("L'equazione ha soluzione:", X2)
